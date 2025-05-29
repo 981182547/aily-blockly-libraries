@@ -1,70 +1,24 @@
 {
-  "kind": "category",
-  "name": "激光测距VL53L0X",
-  "contents": [
-    {
-      "kind": "block",
-      "type": "vl53l0x_create"
-    },
-    {
-      "kind": "block",
-      "type": "vl53l0x_begin"
-    },
-    {
-      "kind": "block",
-      "type": "vl53l0x_start_range"
-    },
-    {
-      "kind": "block",
-      "type": "vl53l0x_is_range_complete"
-    },
-    {
-      "kind": "block",
-      "type": "vl53l0x_read_range_result"
-    },
-    {
-      "kind": "block",
-      "type": "vl53l0x_read_range"
-    },
-    {
-      "kind": "block",
-      "type": "vl53l0x_timeout_occurred"
-    },
-    {
-      "kind": "block",
-      "type": "vl53l0x_start_range_continuous"
-    },
-    {
-      "kind": "block",
-      "type": "vl53l0x_stop_range_continuous"
-    },
-    {
-      "kind": "block",
-      "type": "vl53l0x_ranging_test"
-    },
-    {
-      "kind": "block",
-      "type": "vl53l0x_get_ranging_measurement"
-    },
-    {
-      "kind": "block",
-      "type": "vl53l0x_set_gpio_config"
-    },
-    {
-      "kind": "block",
-      "type": "vl53l0x_set_interrupt_thresholds"
-    },
-    {
-      "kind": "block",
-      "type": "vl53l0x_set_device_mode"
-    },
-    {
-      "kind": "block",
-      "type": "vl53l0x_clear_interrupt_mask"
-    },
-    {
-      "kind": "block",
-      "type": "vl53l0x_sense_config"
-    }
-  ]
+    "kind": "category",
+    "name": "VL53L0X 激光测距",
+    "colour": "#2D7DB3",
+    "contents": [
+
+        {
+            "kind": "block",
+            "type": "vl53l0x_begin"
+        },
+        {
+            "kind": "block",
+            "type": "vl53l0x_ranging_test"
+        },
+        {
+            "kind": "block",
+            "type": "vl53l0x_check_range_valid"
+        },
+        {
+            "kind": "block",
+            "type": "vl53l0x_get_range_mm"
+        }
+    ]
 }
